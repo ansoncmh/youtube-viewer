@@ -9,7 +9,8 @@ const watchVideosInSequence = async (page, ipAddr, targetUrlsList, durationInSec
     try {
       await page.waitForSelector('.view-count', { timeout: 5000 });
       await page.mouse.click(100, 100);
-      const duration = (durationInSeconds + _random(-(durationInSeconds / 6), (durationInSeconds / 6), true));
+      const duration = durationInSeconds;
+      // const duration = (durationInSeconds + _random(-(durationInSeconds / 6), (durationInSeconds / 6), true));
       await page.waitFor(duration * 1000);
       await logger.logCount(page, url, ipAddr, duration);
     } catch {
