@@ -14,8 +14,8 @@ const URL_CONTAINER_FILE_NAME = 'urls.txt';
 const START_PORT = 9052;
 const BATCH_COUNT = IS_PROD ? 6 : 1;
 const TOTAL_COUNT = 192;
-const VIEW_ACTION_COUNT = 14;
-const VIEW_DURATION = 67;
+const VIEW_ACTION_COUNT = 5;
+const VIEW_DURATION = 413;
 const PAGE_DEFAULT_TIMEOUT = 200;
 
 module.exports = {
