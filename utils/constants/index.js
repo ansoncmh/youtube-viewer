@@ -12,11 +12,11 @@ const URL_CONTAINER_FILE_NAME = 'urls.txt';
  * PAGE_DEFAULT_TIMEOUT - Max duration in seconds to wait for any action in the page.
  */
 const START_PORT = 9052;
-const BATCH_COUNT = IS_PROD ? 14 : 1;
-const TOTAL_COUNT = 420;
-const VIEW_ACTION_COUNT = 14;
-const VIEW_DURATION = 60;
-const PAGE_DEFAULT_TIMEOUT = 180;
+const BATCH_COUNT = IS_PROD ? 5 : 1;
+const TOTAL_COUNT = 400;
+const VIEW_ACTION_COUNT = 5;
+const VIEW_DURATION = 412;
+const PAGE_DEFAULT_TIMEOUT = 600;
 
 module.exports = {
   IS_PROD,
